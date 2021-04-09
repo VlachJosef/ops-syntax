@@ -5,7 +5,7 @@ trait TestASyntax {
 }
 final class TestAOps(private val result: String) extends AnyVal {
   def up(): String = {
-    println(hashCode())
+    //println(hashCode())
     result.toUpperCase()
   }
 }

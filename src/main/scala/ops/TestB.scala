@@ -5,7 +5,7 @@ trait TestBSyntax {
 }
 final class TestBOps(private val result: String) {
   def up(): String = {
-    println(hashCode())
+    //println(hashCode())
     result.toUpperCase()
   }
 }
